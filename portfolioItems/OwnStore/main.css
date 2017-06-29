@@ -1,7 +1,7 @@
 body{
 	font-size: 60%;
 	font-family: Tahoma;
-	background: #03124f url(images/blue-brush-stroke-background.jpg) no-repeat fixed top center;
+	background: #03124f url(images/blue-brush-strokes-background.jpg) no-repeat fixed top center;
 	padding: 0;
 	margin: 0;
 	-webkit-background-size: 100% 100%;
@@ -23,30 +23,115 @@ h1{
  
 .image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 300px;
 }
- 
-.overlay {
+
+.overlay1{
   position: absolute;
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #944dff;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.overlay2{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: red;
   overflow: hidden;
   width: 100%;
   height:0;
   transition: .5s ease;
 }
  
-.container:hover .overlay {
+.overlay3 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ff33ff;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.overlay5 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: yellow;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.overlay6 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: red;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+ 
+.container:hover .overlay1 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container:hover .overlay2 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container:hover .overlay4 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container:hover .overlay5 {
+  bottom: 0;
+  height: 100%;
+}
+
+.container:hover .overlay6 {
   bottom: 0;
   height: 100%;
 }
  
 .text {
   white-space: nowrap; 
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
@@ -55,3 +140,15 @@ h1{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+section#sidebar {
+  width: 238px;
+  float: right;
+  position: relative;
+  display: block;
+  background-color: #fff;
+  margin: 1.5em 0 3.0em 1.5em;
+  padding: 1.7em 0.5em 2.0em 1.7em;
+  border-left: #2BA967 solid 5px;
+}
+
