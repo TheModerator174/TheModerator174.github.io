@@ -1,0 +1,16 @@
+body{
+	background: url('../images/background2.jpeg')no-repeat center center fixed;
+};
+
+.img-responsive{
+	height: 300px;
+	width: 400px;
+}
+
+.page-header{
+	color: white;
+}
+
+.row{
+	color:white;
+}

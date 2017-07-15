@@ -8,9 +8,17 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  background: url(images/giphy.gif);
 }
 body {
   margin: 0;
+}
+.view {
+    background: url("images/background1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 article,
 aside,
@@ -1086,7 +1094,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-image: url(".../images/background1.jpg");
 }
 input,
 button,
