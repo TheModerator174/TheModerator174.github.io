@@ -2,6 +2,10 @@ body{
 	background: url('../images/background2.jpeg')no-repeat center center fixed;
 };
 
+.about-me {
+	padding:0px;
+}
+
 .img-responsive{
 	height: 300px;
 	width: 400px;
