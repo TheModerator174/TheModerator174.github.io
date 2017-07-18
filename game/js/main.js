@@ -24,7 +24,7 @@ Hero.prototype = Object.create(Phaser.Sprite.prototype);
 Hero.prototype.constructor = Hero;
 
 Hero.prototype.move = function (direction) {
-    const SPEED = 9100;
+    const SPEED = 200;
     this.body.velocity.x = direction * SPEED;
 
     // update image flipping & animations
