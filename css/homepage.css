@@ -28,3 +28,11 @@ h1{
 	text-align: center;
 	color: white;
 }
+
+.nav-item:hover{
+    background-color: #66ffff;
+}
+
+.nav-item>a:hover{
+    color: white!important;
+}
